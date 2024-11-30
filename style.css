@@ -1,0 +1,44 @@
+/* 기본 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#camera-container {
+    margin-top: 20px;
+}
+
+#camera-stream {
+    width: 640px;
+    height: 480px;
+    border: 2px solid #ddd;
+    background-color: black;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#score {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* 화살표 스타일 */
+.arrow {
+    position: absolute;
+    font-size: 40px;
+    transition: transform 0.3s ease;
+}
